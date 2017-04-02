@@ -1,0 +1,56 @@
+{
+  "name": "enfsaddins-promise",
+  "version": "0.1.0",
+  "description": "Additional methods for node fs module with promises",
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Joao Parreira",
+    "email": "joaofrparreira@gmail.com"
+  },
+  "homepage": "https://github.com/n3okill/enfsaddins-promise",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n3okill/enfsaddins-promise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/n3okill/enfsaddins-promise/issues"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test",
+    "appveyor": "node ./node_modules/mocha/bin/mocha --reporter spec --require should test/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
+    "clone": "^2.1.1"
+  },
+  "keywords": [
+    "fs",
+    "file",
+    "dir",
+    "directory",
+    "link",
+    "symlink",
+    "existsP",
+    "exisStatP",
+    "existLStatP",
+    "existFStatP",
+    "existAccessP",
+    "existStatIsDirectoryP",
+    "existLStatIsDirectoryP",
+    "existFStatIsDirectoryP",
+    "existStatIsFileP",
+    "existLStatIsFileP",
+    "existFStatIsFileP",
+    "existIsSymlinkP"
+  ]
+}
